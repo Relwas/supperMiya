@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44CDF0F0643072CA2EF4BCE4 /* Pods_supperMiya_supperMiyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0081220A6CF9FF597FED4D16 /* Pods_supperMiya_supperMiyaUITests.framework */; };
+		923503B129B5013E008F4326 /* CustomButtonHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923503B029B5013E008F4326 /* CustomButtonHome.swift */; };
 		9245B7CA29AB5DA500416FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7C929AB5DA500416FD3 /* AppDelegate.swift */; };
 		9245B7CC29AB5DA500416FD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7CB29AB5DA500416FD3 /* SceneDelegate.swift */; };
-		9245B7CE29AB5DA500416FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7CD29AB5DA500416FD3 /* ViewController.swift */; };
-		9245B7D129AB5DA500416FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9245B7CF29AB5DA500416FD3 /* Main.storyboard */; };
 		9245B7D429AB5DA500416FD3 /* supperMiya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7D229AB5DA500416FD3 /* supperMiya.xcdatamodeld */; };
 		9245B7D629AB5DA600416FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9245B7D529AB5DA600416FD3 /* Assets.xcassets */; };
 		9245B7D929AB5DA600416FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9245B7D729AB5DA600416FD3 /* LaunchScreen.storyboard */; };
 		9245B7E429AB5DA600416FD3 /* supperMiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7E329AB5DA600416FD3 /* supperMiyaTests.swift */; };
 		9245B7EE29AB5DA600416FD3 /* supperMiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7ED29AB5DA600416FD3 /* supperMiyaUITests.swift */; };
 		9245B7F029AB5DA600416FD3 /* supperMiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7EF29AB5DA600416FD3 /* supperMiyaUITestsLaunchTests.swift */; };
+		9245B7FE29AB6EA800416FD3 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7FD29AB6EA800416FD3 /* ForgotPasswordController.swift */; };
+		9245B80029AB6EC400416FD3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B7FF29AB6EC400416FD3 /* LoginController.swift */; };
+		9245B80229AB6F6000416FD3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B80129AB6F6000416FD3 /* HomeController.swift */; };
+		9245B80529AB882400416FD3 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B80429AB882400416FD3 /* AuthHeaderView.swift */; };
+		9245B80829ABB93D00416FD3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245B80729ABB93D00416FD3 /* CustomTextField.swift */; };
+		925EA28C29AC6F4A00FB6ED1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925EA28B29AC6F4A00FB6ED1 /* CustomButton.swift */; };
+		929625C429AE2215001C1658 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929625C329AE2215001C1658 /* AlertManager.swift */; };
+		92DA03EC29B05860001D44F4 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA03EB29B05860001D44F4 /* HomeHeaderView.swift */; };
+		AFC0879B694E82FD36F2C489 /* Pods_supperMiya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2E003F6EC8C3E6C26A0556 /* Pods_supperMiya.framework */; };
+		E269EDC08275282DC04D304B /* Pods_supperMiyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475CDF54C605A47CCA339174 /* Pods_supperMiyaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0081220A6CF9FF597FED4D16 /* Pods_supperMiya_supperMiyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_supperMiya_supperMiyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09253AB69CE1C467FD6311A2 /* Pods-supperMiya-supperMiyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiya-supperMiyaUITests.release.xcconfig"; path = "Target Support Files/Pods-supperMiya-supperMiyaUITests/Pods-supperMiya-supperMiyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		475CDF54C605A47CCA339174 /* Pods_supperMiyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_supperMiyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58783AE197D399940E4AEBF4 /* Pods-supperMiya-supperMiyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiya-supperMiyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-supperMiya-supperMiyaUITests/Pods-supperMiya-supperMiyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63F4AC8DBD88D3E506F8E36E /* Pods-supperMiya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiya.release.xcconfig"; path = "Target Support Files/Pods-supperMiya/Pods-supperMiya.release.xcconfig"; sourceTree = "<group>"; };
+		923503B029B5013E008F4326 /* CustomButtonHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonHome.swift; sourceTree = "<group>"; };
 		9245B7C629AB5DA500416FD3 /* supperMiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supperMiya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9245B7C929AB5DA500416FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9245B7CB29AB5DA500416FD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9245B7CD29AB5DA500416FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9245B7D029AB5DA500416FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9245B7D329AB5DA500416FD3 /* supperMiya.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = supperMiya.xcdatamodel; sourceTree = "<group>"; };
 		9245B7D529AB5DA600416FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9245B7D829AB5DA600416FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,18 @@
 		9245B7E929AB5DA600416FD3 /* supperMiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = supperMiyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9245B7ED29AB5DA600416FD3 /* supperMiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supperMiyaUITests.swift; sourceTree = "<group>"; };
 		9245B7EF29AB5DA600416FD3 /* supperMiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supperMiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9245B7FD29AB6EA800416FD3 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		9245B7FF29AB6EC400416FD3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9245B80129AB6F6000416FD3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		9245B80429AB882400416FD3 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		9245B80729ABB93D00416FD3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		925EA28B29AC6F4A00FB6ED1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		929625C329AE2215001C1658 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		92DA03EB29B05860001D44F4 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		C6890B7D76166126C082579D /* Pods-supperMiyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiyaTests.release.xcconfig"; path = "Target Support Files/Pods-supperMiyaTests/Pods-supperMiyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E115B3F47BEEA4D8F85DF2FA /* Pods-supperMiya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiya.debug.xcconfig"; path = "Target Support Files/Pods-supperMiya/Pods-supperMiya.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E4D039D226FCF5EDD3E5F0 /* Pods-supperMiyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-supperMiyaTests.debug.xcconfig"; path = "Target Support Files/Pods-supperMiyaTests/Pods-supperMiyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2E003F6EC8C3E6C26A0556 /* Pods_supperMiya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_supperMiya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC0879B694E82FD36F2C489 /* Pods_supperMiya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E269EDC08275282DC04D304B /* Pods_supperMiyaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CDF0F0643072CA2EF4BCE4 /* Pods_supperMiya_supperMiyaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,8 @@
 				9245B7E229AB5DA600416FD3 /* supperMiyaTests */,
 				9245B7EC29AB5DA600416FD3 /* supperMiyaUITests */,
 				9245B7C729AB5DA500416FD3 /* Products */,
+				B92894DF77135A05F62369D7 /* Pods */,
+				C36E92FE40FB07FA15B90B4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +132,10 @@
 		9245B7C829AB5DA500416FD3 /* supperMiya */ = {
 			isa = PBXGroup;
 			children = (
-				9245B7C929AB5DA500416FD3 /* AppDelegate.swift */,
-				9245B7CB29AB5DA500416FD3 /* SceneDelegate.swift */,
-				9245B7CD29AB5DA500416FD3 /* ViewController.swift */,
-				9245B7CF29AB5DA500416FD3 /* Main.storyboard */,
-				9245B7D529AB5DA600416FD3 /* Assets.xcassets */,
-				9245B7D729AB5DA600416FD3 /* LaunchScreen.storyboard */,
+				929625C329AE2215001C1658 /* AlertManager.swift */,
+				929625C229AE21E2001C1658 /* Controllers */,
+				9245B80329AB6F8B00416FD3 /* Views */,
+				9245B7FC29AB60DE00416FD3 /* Supporting */,
 				9245B7DA29AB5DA600416FD3 /* Info.plist */,
 				9245B7D229AB5DA500416FD3 /* supperMiya.xcdatamodeld */,
 			);
@@ -130,6 +159,62 @@
 			path = supperMiyaUITests;
 			sourceTree = "<group>";
 		};
+		9245B7FC29AB60DE00416FD3 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				9245B7CB29AB5DA500416FD3 /* SceneDelegate.swift */,
+				9245B7C929AB5DA500416FD3 /* AppDelegate.swift */,
+				9245B7D529AB5DA600416FD3 /* Assets.xcassets */,
+				9245B7D729AB5DA600416FD3 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		9245B80329AB6F8B00416FD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9245B80429AB882400416FD3 /* AuthHeaderView.swift */,
+				92DA03EB29B05860001D44F4 /* HomeHeaderView.swift */,
+				9245B80729ABB93D00416FD3 /* CustomTextField.swift */,
+				925EA28B29AC6F4A00FB6ED1 /* CustomButton.swift */,
+				923503B029B5013E008F4326 /* CustomButtonHome.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		929625C229AE21E2001C1658 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9245B80129AB6F6000416FD3 /* HomeController.swift */,
+				9245B7FF29AB6EC400416FD3 /* LoginController.swift */,
+				9245B7FD29AB6EA800416FD3 /* ForgotPasswordController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B92894DF77135A05F62369D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E115B3F47BEEA4D8F85DF2FA /* Pods-supperMiya.debug.xcconfig */,
+				63F4AC8DBD88D3E506F8E36E /* Pods-supperMiya.release.xcconfig */,
+				58783AE197D399940E4AEBF4 /* Pods-supperMiya-supperMiyaUITests.debug.xcconfig */,
+				09253AB69CE1C467FD6311A2 /* Pods-supperMiya-supperMiyaUITests.release.xcconfig */,
+				F7E4D039D226FCF5EDD3E5F0 /* Pods-supperMiyaTests.debug.xcconfig */,
+				C6890B7D76166126C082579D /* Pods-supperMiyaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C36E92FE40FB07FA15B90B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2E003F6EC8C3E6C26A0556 /* Pods_supperMiya.framework */,
+				0081220A6CF9FF597FED4D16 /* Pods_supperMiya_supperMiyaUITests.framework */,
+				475CDF54C605A47CCA339174 /* Pods_supperMiyaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9245B7F329AB5DA600416FD3 /* Build configuration list for PBXNativeTarget "supperMiya" */;
 			buildPhases = (
+				29D82A43603DE94E137DD6E1 /* [CP] Check Pods Manifest.lock */,
 				9245B7C229AB5DA500416FD3 /* Sources */,
 				9245B7C329AB5DA500416FD3 /* Frameworks */,
 				9245B7C429AB5DA500416FD3 /* Resources */,
+				532270872858769FB7563F7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9245B7F629AB5DA600416FD3 /* Build configuration list for PBXNativeTarget "supperMiyaTests" */;
 			buildPhases = (
+				DF6B1D8C09B2530D78725398 /* [CP] Check Pods Manifest.lock */,
 				9245B7DB29AB5DA600416FD3 /* Sources */,
 				9245B7DC29AB5DA600416FD3 /* Frameworks */,
 				9245B7DD29AB5DA600416FD3 /* Resources */,
@@ -172,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9245B7F929AB5DA600416FD3 /* Build configuration list for PBXNativeTarget "supperMiyaUITests" */;
 			buildPhases = (
+				B599DED03F70132F243BFB6A /* [CP] Check Pods Manifest.lock */,
 				9245B7E529AB5DA600416FD3 /* Sources */,
 				9245B7E629AB5DA600416FD3 /* Frameworks */,
 				9245B7E729AB5DA600416FD3 /* Resources */,
+				DDEF6A4579391877FC448A2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +326,6 @@
 			files = (
 				9245B7D929AB5DA600416FD3 /* LaunchScreen.storyboard in Resources */,
 				9245B7D629AB5DA600416FD3 /* Assets.xcassets in Resources */,
-				9245B7D129AB5DA500416FD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +345,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D82A43603DE94E137DD6E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-supperMiya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532270872858769FB7563F7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-supperMiya/Pods-supperMiya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-supperMiya/Pods-supperMiya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-supperMiya/Pods-supperMiya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B599DED03F70132F243BFB6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-supperMiya-supperMiyaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEF6A4579391877FC448A2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-supperMiya-supperMiyaUITests/Pods-supperMiya-supperMiyaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-supperMiya-supperMiyaUITests/Pods-supperMiya-supperMiyaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-supperMiya-supperMiyaUITests/Pods-supperMiya-supperMiyaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6B1D8C09B2530D78725398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-supperMiyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9245B7C229AB5DA500416FD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9245B7CE29AB5DA500416FD3 /* ViewController.swift in Sources */,
+				92DA03EC29B05860001D44F4 /* HomeHeaderView.swift in Sources */,
+				923503B129B5013E008F4326 /* CustomButtonHome.swift in Sources */,
+				9245B7FE29AB6EA800416FD3 /* ForgotPasswordController.swift in Sources */,
+				929625C429AE2215001C1658 /* AlertManager.swift in Sources */,
+				9245B80029AB6EC400416FD3 /* LoginController.swift in Sources */,
+				925EA28C29AC6F4A00FB6ED1 /* CustomButton.swift in Sources */,
+				9245B80229AB6F6000416FD3 /* HomeController.swift in Sources */,
 				9245B7CA29AB5DA500416FD3 /* AppDelegate.swift in Sources */,
+				9245B80829ABB93D00416FD3 /* CustomTextField.swift in Sources */,
 				9245B7D429AB5DA500416FD3 /* supperMiya.xcdatamodeld in Sources */,
 				9245B7CC29AB5DA500416FD3 /* SceneDelegate.swift in Sources */,
+				9245B80529AB882400416FD3 /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +501,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9245B7CF29AB5DA500416FD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9245B7D029AB5DA500416FD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9245B7D729AB5DA600416FD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +628,7 @@
 		};
 		9245B7F429AB5DA600416FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E115B3F47BEEA4D8F85DF2FA /* Pods-supperMiya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,11 +637,12 @@
 				DEVELOPMENT_TEAM = 8WYLUMGX95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = supperMiya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Super Miya";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +650,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = relwas.supperMiya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +661,7 @@
 		};
 		9245B7F529AB5DA600416FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F4AC8DBD88D3E506F8E36E /* Pods-supperMiya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,11 +670,12 @@
 				DEVELOPMENT_TEAM = 8WYLUMGX95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = supperMiya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Super Miya";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,6 +683,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = relwas.supperMiya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +694,7 @@
 		};
 		9245B7F729AB5DA600416FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E4D039D226FCF5EDD3E5F0 /* Pods-supperMiyaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +715,7 @@
 		};
 		9245B7F829AB5DA600416FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6890B7D76166126C082579D /* Pods-supperMiyaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +736,7 @@
 		};
 		9245B7FA29AB5DA600416FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58783AE197D399940E4AEBF4 /* Pods-supperMiya-supperMiyaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +755,7 @@
 		};
 		9245B7FB29AB5DA600416FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09253AB69CE1C467FD6311A2 /* Pods-supperMiya-supperMiyaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
