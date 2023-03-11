@@ -1,0 +1,6 @@
+framework module Pods_supperMiyaTests {
+  umbrella header "Pods-supperMiyaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
